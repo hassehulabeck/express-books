@@ -1,0 +1,17 @@
+[
+  {
+    "bookId": 1,
+    "title": "Gud vet",
+    "author": "Joseph Heller"
+  },
+  {
+    "bookId": 2,
+    "title": "Inifrån",
+    "author": "Anna Kinberg Batra"
+  },
+  {
+    "bookId": 3,
+    "title": "Candide",
+    "author": "Voltaire"
+  }
+]
