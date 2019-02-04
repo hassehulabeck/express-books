@@ -3,7 +3,10 @@ const router = express.Router();
 var books = require('../books.json');
 
 function getBook(bookId) {
-  return books.find( book => book.bookId == bookId);
+  var bok = books.find(function(book){
+    return book.bookId == bookId
+  });
+  return bok;
 };
 
 router.get("/", (req, res) => {
